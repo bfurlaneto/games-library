@@ -47,6 +47,9 @@ dependencies {
     implementation "com.google.dagger:dagger-android:$rootProject.dagger_version"
     kapt "com.google.dagger:dagger-android-processor:$rootProject.dagger_version"
 
+    implementation "com.squareup.retrofit2:retrofit:$rootProject.retrofit_version"
+    implementation "com.squareup.retrofit2:converter-gson:$rootProject.retrofit_version"
+
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
